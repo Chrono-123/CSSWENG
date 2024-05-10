@@ -1,0 +1,43 @@
+#stickyBar{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(93,93,93);
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 60px;
+    width: -webkit-fill-available;
+    align-items: center;
+    left: 0px
+}
+#stickyBar a {
+    float: right;
+    display: flex;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-style: bold;
+    flex-grow: 1;
+    height: max-content;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+#stickyBar a:hover{
+    background-color: grey;
+  }
+#stickyBar h2 {
+    margin-left: 20px;
+    flex-grow: 15;
+}
+.navItem {
+    border-style: solid;
+    border-width: 1px;
+    border-top: 5px;
+    border-bottom: 5px;
+    margin-right: 22px;
+    border-color: black;
+}
